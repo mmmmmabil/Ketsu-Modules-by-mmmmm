@@ -10,8 +10,8 @@
     "moduleLenguage": "ENG",
     "moduleType": "Video",
     "baseURL": "https://www.youtube.com/",
-    "moduleDeveloperSite": "",
-    "UpdateSite": "",
+    "moduleDeveloperSite": "https://github.com/mmmmmabil/Ketsu-Youtube-Module",
+    "UpdateSite": "https://raw.githubusercontent.com/mmmmmabil/Ketsu-Youtube-Module/main/Module%20Template%20YT/Module%20Youtube/module_Youtube.json",
     "preferedServer": "",
     "preferedDownloadServer": "",
     "blackListed": [
