@@ -6,7 +6,7 @@
     "developer": "mmmmm",
     "moduleID": "123987",
     "moduleImage": "https://cdn.discordapp.com/attachments/744323256290377859/936685502785015878/IMG_0710.jpg",
-    "moduleVersion": 1.1,
+    "moduleVersion": 1.2,
     "moduleLenguage": "ENG",
     "moduleType": "Video",
     "baseURL": "https://www.youtube.com/",
@@ -71,8 +71,8 @@
         ]
       },
       "javascriptConfig": {
-        "removeJavascript": true,
-        "loadInWebView": false,
+        "removeJavascript": false,
+        "loadInWebView": true,
         "javaScript": ""
       },
       "output": [
