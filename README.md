@@ -1,3 +1,8 @@
+## Current Modules
+YouTube - in the works <br />
+Taadd/Niadd - trying to fix it
+
+
 # Ketsu-Modules
 These are the modules created by the Katsu/Ketsu/Zetsu community.
 
@@ -9,8 +14,3 @@ You can still sideload it on your phone for free with softwares like AltStore or
 
 
 _Copied the readme from https://github.com/Bilnaa/bilnaa.github.io_
-
-
-## Current Modules
-YouTube - in the works <br />
-Taadd/Niadd - trying to fix it
