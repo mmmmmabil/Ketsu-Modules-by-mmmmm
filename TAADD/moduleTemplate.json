@@ -2,7 +2,7 @@
   "moduleInfo": {
     "moduleName": "TAADD",
     "moduleInitials": "",
-    "moduleDesc": "This is a module to get data from TAADD website enjoy.",
+    "moduleDesc": "Fix for the TAADD module in mprotmod's library",
     "developer": "user123",
     "moduleID": "423948723487",
     "moduleImage": "https://www.niadd.com/files/img/logo.png",
@@ -11,8 +11,8 @@
     "moduleType": "Image",
     "baseURL": "https://www.niadd.com/",
     "searchPlaceHolder": "Search here",
-    "moduleDeveloperSite": "https://mprotmod.github.io/Modules-KETSU/index.html",
-    "UpdateSite" : "https://raw.githubusercontent.com/mprotmod/Modules-KETSU/main/Module%20Parser%20KETSU/TAADD/moduleTemplate.json",
+    "moduleDeveloperSite": "https://github.com/mmmmmabil/Ketsu-Modules-by-mmmmm",
+    "UpdateSite" : "https://raw.githubusercontent.com/mmmmmabil/Ketsu-Modules-by-mmmmm/main/TAADD/moduleTemplate.json",
     "preferedServer": "UM",
     "preferedDownloadServer": "UM",
     "blackListed": [
