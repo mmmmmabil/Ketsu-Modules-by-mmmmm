@@ -5,5 +5,5 @@ header {
     background: #1E1E1E;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
 }
