@@ -1,26 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=VT323&display=swap');
+
+body {
+    margin: 0;
+    background: #333;
+    font-family: "Poppins"
+}
+li, ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main {
+    padding: 140px 40px 40px;
+    color: #bbb;
+}
 .menu {
-    
+    position: fixed;
+    width: 100%;
+    height: 100%;
 }
 header {
+    background: #222;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
     box-sizing: border-box;
-    color: #EEE;
-}
-.burger {
-    display:relative;
-    font-size: 1.2em;
-    cursor:pointer;
-    z-index: 1;
-}
-.burger span {
-    display: block;
-    width: 30px;
-    height: 2px;
-    background: #1e1e1e;
-    margin-bottom: 5px,
+    color: #eee;
 }
 nav {
     background: #222;
@@ -40,24 +46,38 @@ nav a {
     margin-bottom: 6px;
     font-size: 1.2em;
 }
+.burger {
+    display:relative;
+    font-size: 1.2em;
+    cursor:pointer;
+    z-index: 1;
+}
+.burger span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #eee;
+    margin-bottom: 5px,
+}
+
 
 nav.open {
     left: 0;
 }
-.burger.open span:nth-child(1) {
-    transform: rotate(45deg) translateY(10px)
+.burger.open span:first-child {
+    transform: rotate(45deg) translateY(0px);
 }
 .burger.open span:nth-child(2) {
     opacity: 0;
     width: 0;
 }
 .burger.open span:nth-child(3) {
-    transform: rotate(-45deg) translateY(-10px)
+    transform: rotate(-45deg) translateY(0px);
 }
 
 nav {
     transition: left ease-in 0.3s;
 }
-.burer span {
+.burger span {
     transition: all ease-in 0.3s;
 } 
