@@ -1,3 +1,4 @@
+/* imma kms over those 3 lines */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=VT323&display=swap');
 
 body {
@@ -9,7 +10,6 @@ li, ul {
     list-style-type: none;
     padding: 0;
 }
-
 main {
     padding: 140px 40px 40px;
     color: #bbb;
@@ -36,7 +36,7 @@ nav {
     box-sizing: border-box;
     width: 200px;
     position: absolute;
-    top: 0px;
+    top: 0;
     z-index: 0;
     left: -200;
 }
