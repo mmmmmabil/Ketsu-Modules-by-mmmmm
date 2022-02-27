@@ -63,14 +63,16 @@ left: 0;
 }
 /*
 .burger.open span:first-child {
-transform: rotate(45deg) translateY(-1px);
+transform: rotate(45deg) translateY(14px);
+margin: -2px;
 }
 .burger.open span:nth-child(2) {
 opacity: 0;
 width: 0;
 }
 .burger.open span:nth-child(3) {
-transform: rotate(-45deg) translateY(-1px);
+transform: rotate(-45deg) translateY(-13px);
+margin: -2px;
 }
 */
 nav {
