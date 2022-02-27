@@ -1,0 +1,83 @@
+/* imma kms over those 3 lines */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=VT323&display=swap');
+body {
+margin: 0px;
+background: #333;
+font-family: "Poppins"
+}
+li, ul {
+list-style-type: none;
+padding: 0;
+}
+main {
+padding: 140px 40px 40px;
+color: #eee;
+}
+.menu {
+position: fixed;
+width: 100%;
+height: 100%;
+}
+header {
+background: #222;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 20px;
+box-sizing: border-box;
+color: rgb(99, 6, 128);
+}
+nav {
+background: #222;
+padding: 20px;
+padding-top: 90px;
+height: 100%;
+box-sizing: border-box;
+width: 200px;
+position: absolute;
+top: 0;
+z-index: 0;
+left: -200;
+}
+nav a {
+color: rgb(99, 6, 128);
+display: block;
+margin-bottom: 6px;
+font-size: 1.2em;
+}
+.burger {
+display:relative;
+font-size: 1.2em;
+cursor:pointer;
+z-index: 1;
+}
+.burger span {
+display: block;
+width: 30px;
+height: 2px;
+background: rgb(99, 6, 128);
+margin: 10px;
+}
+nav.open {
+left: 0;
+}
+/*
+.burger.open span:first-child {
+transform: rotate(45deg) translateY(14px);
+margin: -2px;
+}
+.burger.open span:nth-child(2) {
+opacity: 0;
+width: 0;
+}
+.burger.open span:nth-child(3) {
+transform: rotate(-45deg) translateY(-13px);
+margin: -2px;
+}
+*/
+nav {
+transition: left ease-in 0.3s;
+}
+.burger span {
+transition: all ease-in 0.3s;
+} 
