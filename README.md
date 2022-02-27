@@ -1,6 +1,6 @@
 ## Current Modules
-YouTube - in the works <br />
-Taadd/Niadd - trying to fix it
+YouTube - on hold <br />
+Javever.net - active development
 
 
 # Ketsu-Modules
