@@ -6,7 +6,7 @@
     "developer": "mmmmm",
     "moduleID": "742",
     "moduleImage": "https://cdn.discordapp.com/attachments/744323256290377859/947583546724323449/logo-removebg-preview.png",
-    "moduleVersion": 0.1,
+    "moduleVersion": 0.11,
     "moduleLenguage": "JAP",
     "moduleType": "Video",
     "baseURL": "https://javever.net/",
@@ -41,7 +41,7 @@
   "mainPage": [
     {
       "request": {
-        "url": "https://javever.net/",
+        "url": "https://javever.net",
         "method": "get",
         "headers": [
           {
