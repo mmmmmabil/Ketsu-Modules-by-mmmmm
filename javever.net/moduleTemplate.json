@@ -10,8 +10,8 @@
     "moduleLenguage": "JAP",
     "moduleType": "Video",
     "baseURL": "https://javever.net/",
-    "moduleDeveloperSite": "",
-    "UpdateSite": "",
+    "moduleDeveloperSite": "https://github.com/mmmmmabil/Ketsu-Modules-by-mmmmm",
+    "UpdateSite": "https://raw.githubusercontent.com/mmmmmabil/Ketsu-Modules-by-mmmmm/main/javever.net/moduleTemplate.json",
     "preferedServer": "",
     "preferedDownloadServer": "",
     "blackListed": [
@@ -41,7 +41,7 @@
   "mainPage": [
     {
       "request": {
-        "url": "",
+        "url": "https://javever.net/",
         "method": "get",
         "headers": [
           {
