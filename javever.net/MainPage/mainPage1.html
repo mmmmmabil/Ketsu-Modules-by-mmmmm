@@ -1819,14 +1819,15 @@
         let emptyKeyValue = [new KeyValue('','')];
 
 
-        let videos = document.querySelector('.widget widget_videos_block').querySelectorAll('.videos-list')
+        let videos = document.querySelector('#widget_videos_block-5 > videos-list').querySelectorAll('article');
+        document.querySelector("#widget_videos_block-5 > div.videos-list > article > a > div.post-thumbnail > div > img")
 
         let dataArray = [];
         for (video of videos) {
-            let title = anime.querySelector('span').textContent;
-            var image = anime.querySelector('img').getAttribute('data-srcset').split(' ');
+            let title = video.querySelector('a > header').querySelector('span').textContent;
+            var image = video.querySelector('img').getAttribute('data-srcset').split(' ');
             image = new ModuleRequest(getImage(image),'get',emptyKeyValue,null);
-            var link = anime.querySelector('a').href;
+            var link = video.querySelector('a').href;
             link = new ModuleRequest(link,'get',emptyKeyValue,null);
             let data = new Data(image,title,'unknown','# ' + (dataArray.lenght + 1),'latest Censored Video','unknown','unknown',false,link);
             dataArray.push(data);
