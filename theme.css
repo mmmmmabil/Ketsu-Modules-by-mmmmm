@@ -1,11 +1,11 @@
-/* imma kms over those 3 lines */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=VT323&display=swap');
 body {
 margin: 0px;
 background: #333;
 font-family: "Poppins"
 }
-li, ul {
+li,
+ul {
 list-style-type: none;
 padding: 0;
 }
@@ -46,9 +46,9 @@ margin-bottom: 6px;
 font-size: 1.2em;
 }
 .burger {
-display:relative;
+display: relative;
 font-size: 1.2em;
-cursor:pointer;
+cursor: pointer;
 z-index: 1;
 }
 .burger span {
@@ -63,15 +63,16 @@ left: 0;
 }
 /*
 .burger.open span:first-child {
-transform: rotate(45deg) translateY(14px);
-margin: -2px;
+transform: rotate(45deg) translateY(0px);
 }
 .burger.open span:nth-child(2) {
 opacity: 0;
 width: 0;
 }
 .burger.open span:nth-child(3) {
-transform: rotate(-45deg) translateY(-13px);
+transform: rotate(-45deg) translateY(0px);
+}
+.burger.open span {
 margin: -2px;
 }
 */
@@ -80,4 +81,4 @@ transition: left ease-in 0.3s;
 }
 .burger span {
 transition: all ease-in 0.3s;
-} 
+}
