@@ -1,6 +1,6 @@
 ## Current Modules
 YouTube - on hold <br />
-Javever.net - active development
+Javever.net - site shut down, replacement found
 
 
 # Ketsu-Modules
