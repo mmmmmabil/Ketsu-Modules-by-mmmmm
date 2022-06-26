@@ -1,17 +1,17 @@
 {
   "moduleInfo": {
-    "moduleName": "",
-    "moduleInitials": "",
-    "moduleDesc": "",
-    "developer": "",
-    "moduleID": "SDFSDFDSFSDFSDF",
-    "moduleImage": "",
-    "moduleVersion": 1.0,
+    "moduleName": "YouTube",
+    "moduleInitials": "YT",
+    "moduleDesc": "a modudule for youtube.com",
+    "developer": "mmmmm",
+    "moduleID": "310522",
+    "moduleImage": "https://cdn.iconscout.com/icon/free/png-256/youtube-268-721990.png",
+    "moduleVersion": 0.11,
     "moduleLenguage": "ENG",
     "moduleType": "Video",
-    "baseURL": "",
-    "moduleDeveloperSite": "",
-    "UpdateSite": "",
+    "baseURL": "https://www.youtube.com/",
+    "moduleDeveloperSite": "https://github.com/mmmmmabil/Ketsu-Modules-by-mmmmm",
+    "UpdateSite": "https://raw.githubusercontent.com/mmmmmabil/Ketsu-Modules-by-mmmmm/main/try2/moduleTemplate.json",
     "preferedServer": "",
     "preferedDownloadServer": "",
     "blackListed": [
@@ -41,7 +41,7 @@
   "mainPage": [
     {
       "request": {
-        "url": "",
+        "url": "https://www.youtube.com/",
         "method": "get",
         "headers": [
           {
